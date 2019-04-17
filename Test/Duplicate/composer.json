@@ -1,0 +1,14 @@
+{
+	"name": "Alaa task",
+	"description": "SEO duplicate fix",
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+			"registration.php"
+		],
+		"psr-4": {
+			"Test\\Duplicate\\": ""
+		}
+	}
+
+}
