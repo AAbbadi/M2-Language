@@ -32,7 +32,7 @@ class Duplicate extends \Magento\Framework\View\Element\Template
 	        $cmsPageUrl = $this->_page->getIdentifier();
 	        return __('<link rel="alternate" hreflang="'.$storeLanguage.'" href="'.$baseUrl . $cmsPageUrl.'" />');
 	    }
-	    return true;
+	    return __('');
 	}
 
 	private function checkPageInStores($identifier){
