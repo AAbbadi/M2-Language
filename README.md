@@ -1,6 +1,6 @@
 # Magento 2 test
 
-The code was implemented to solve an issue when the magento store is multi store, and there is a shared CMS pages, then this will cause a duplicate content issue and will affect the SEO ranking.
+The code was implemented to solve an issue when the magento store is multi stores, and there is a shared CMS pages, then this will cause a duplicate content issue and will affect the SEO ranking.
 
 # How to use
 Copy Test\Duplicate folder to DOC_ROOT/app/code/ use SSH to access the server and execute the following commands in DOC_ROOT
